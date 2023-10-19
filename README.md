@@ -30,5 +30,5 @@ In this section, we compare the results obtained with the three methods mentione
 ![image2](https://github.com/BenedettaValpreda/randomization_project/assets/147848856/5661e224-9977-478a-af18-4519ab3663f3)
 
 
-As expected, the results under random assignment are very close to the true impact (equal to 100), while the results under self-selection are biased. 
+As expected, the results under random assignment in Table 2 are very close to the true impact (equal to 100), while the results under self-selection in Table 1 are biased. 
 From a theoretical point of view, this is due to the fact that under randomization the group of individuals who join the program and the group of those who do not are balanced in every single feature (even the unobservable ones), hence in this scenario there is no selection bias that can compromise the estimation of the impact. 
