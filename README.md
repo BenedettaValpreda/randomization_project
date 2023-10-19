@@ -24,9 +24,12 @@ Note from the equation above that the true impact of the program (namely the eff
 
 ## Results and Conclusions
 In this section, we compare the results obtained with the three methods mentioned above running MC simulations. Table 1 displays the results for the first scenario (auto-selection), whereas Table 2 shows the results for the second one (randomization).
+
+
 ![image](https://github.com/BenedettaValpreda/randomization_project/assets/147848856/7d840895-6f0b-4ceb-8ab7-a6ab7ec4fbe1)
 
 ![image](https://github.com/BenedettaValpreda/randomization_project/assets/147848856/86f7ff99-0cf2-4993-b0e9-36f88a9f76bd)
+
 
 As expected, the results under random assignment are very close to the true impact (equal to 100), while the results under self-selection are biased. 
 From a theoretical point of view, this is due to the fact that under randomization the group of individuals who join the program and the group of those who do not are balanced in every single feature (even the unobservable ones), hence in this scenario there is no selection bias that can compromise the estimation of the impact. 
