@@ -13,7 +13,7 @@ For each scenario, we generate a dataset and we estimate the policy impact in th
 We perform this procedure multiple times (MC simulations) and we compute the mean among all the estimated impacts as the ultimate result for the given scenario. 
 Finally, we compare the final results obtained from the two scenarios and we draw our conclusions.
 
-In this application, the key variables are the following ones:
+In this project, the key variables are the following ones:
 * treatment (*trattati* in Italian): a binary variable that indicates if an individual attends the program or not. In the first scenario it is positively correlated with an individual's motivation ` gen trattati = (motivazione >= 0) ` , while in the second scenario it is random
  ` gen trattati = (uniform() <= 0.5) `
 * control variables: gender (*femmina* in Italian), nationality (*straniero* in Italian), age (*età* in Italian), years of education (*anni di istruzione* in Italian)
