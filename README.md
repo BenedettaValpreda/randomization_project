@@ -13,9 +13,8 @@ We perform this procedure multiple times and we compute the mean among all the e
 Finally, we compare the final results obtained from the two scenarios and we draw our conclusions.
 
 In this application, the variables are:
-* treatment (trattati in Italian): a dummy variable that indicates if an individual attends the program or not. In the first scenario it is positively correlated with individual motivation, while in the second scenario it is random
- ` gen trattati = (motivazione >= 0)
-  gen trattati = (uniform() <= 0.5) `
+* treatment (trattati in Italian): a dummy variable that indicates if an individual attends the program or not. In the first scenario it is positively correlated with individual motivation ` gen trattati = (motivazione >= 0) ` , while in the second scenario it is random
+ ` gen trattati = (motivazione >= 0) ` gen trattati = (uniform() <= 0.5) `
   
 * controls: 
 * wage: outcome variable, generated as a function of treatment, controls and motivation (unobservable)
