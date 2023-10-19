@@ -16,7 +16,8 @@ In this application, the variables are:
 * treatment (*trattati* in Italian): a dummy variable that indicates if an individual attends the program or not. In the first scenario it is positively correlated with an individual's motivation ` gen trattati = (motivazione >= 0) ` , while in the second scenario it is random
  ` gen trattati = (uniform() <= 0.5) `
 * control variables: gender (*femmina* in Italian), nationality (*straniero* in Italian), age (*età* in Italian), years of education (*anni di istruzione* in Italian)
-* wage: outcome variable, generated as a function of treatment, controls and motivation (unobservable)
+* wage: outcome variable, generated as a function of treatment, control varabless, motivation (unobservable) and a random error term
+  
  ` gen reddito = ceil(1500 + 100*trattati - 200*femmina - 300*straniero + 20*eta + 10*anni_istruzione +50*motivazione + epsilon) `
 
 ## Results
