@@ -6,7 +6,7 @@ The primary aim is to show that under randomization we can **accurately** assess
 ## Case study and Data
 Suppose we want to evaluate the impact of a training program on the earnings of young individuals in a given country. 
 We consider two possible settings:
-1. auto-selection: young individuals choose whether they attend the training program or not (depending on their personal motivation)
+1. self-selection: young individuals choose whether they attend the training program or not (depending on their personal motivation)
 2. randomization: young individuals are randomly assigned to either join the program or not
    
 For each scenario, we generate a dataset and we estimate the policy impact in three different ways (difference, simple regression model and multiple regression model). 
@@ -23,7 +23,7 @@ In this project, the key variables are the following ones:
 Note from the equation above that the true impact of the program (namely the effect of the treatment on wages) is equal to 100.
 
 ## Results and Conclusions
-In this section, we compare the results obtained with the three methods mentioned above running MC simulations. Table 1 displays the results for the first scenario (auto-selection), whereas Table 2 shows the results for the second one (randomization).
+In this section, we compare the results obtained with the three methods mentioned above running MC simulations. Table 1 displays the results for the first scenario (self-selection), whereas Table 2 shows the results for the second one (randomization).
 
 ![image1](https://github.com/BenedettaValpreda/randomization_project/assets/147848856/1949f40f-6ad5-4cab-8fce-8efec91c728a)
 
